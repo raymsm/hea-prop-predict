@@ -1,0 +1,16 @@
+Symbol,Name,AtomicNumber,AtomicMass_amu,Density_g_cm3,CrystalStructure,LatticeParameter_a_A,ThermalConductivity_W_mK
+Fe,Iron,26,55.845,7.874,BCC,2.866,80.4
+Co,Cobalt,27,58.933,8.90,HCP,2.507,100.0
+Ni,Nickel,28,58.693,8.908,FCC,3.524,90.9
+Cr,Chromium,24,51.996,7.19,BCC,2.884,93.9
+Mn,Manganese,25,54.938,7.21,BCC_complex,8.913,7.81
+Al,Aluminum,13,26.982,2.70,FCC,4.049,237.0
+Ti,Titanium,22,47.867,4.506,HCP,2.950,21.9
+Cu,Copper,29,63.546,8.96,FCC,3.615,401.0
+V,Vanadium,23,50.942,6.11,BCC,3.024,30.7
+Mo,Molybdenum,42,95.96,10.28,BCC,3.147,138.0
+Nb,Niobium,41,92.906,8.57,BCC,3.300,53.7
+W,Tungsten,74,183.84,19.3,BCC,3.165,173.0
+# Add more elements as needed... Note: Crystal structures and lattice params can be phase/temp dependent. These are common room temp values.
+# Thermal conductivity can also vary widely.
+# Manganese has a complex structure (alpha-Mn), BCC is a high-temp phase but sometimes used conceptually in HEA models. Lattice param here is for alpha-Mn 'a'. Be cautious!
