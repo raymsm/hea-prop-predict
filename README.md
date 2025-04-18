@@ -52,8 +52,9 @@ Run the predictor from the command line using the `src/hea_predictor/cli.py` scr
 
 ```bash
 python src/hea_predictor/cli.py "<Composition_String>" [Options]
+```
 Arguments:
-
+```bash
 <Composition_String> (Required): The HEA composition in atomic fractions.
 Format: "Elem1:frac1,Elem2:frac2,..."
 Example: "Fe:0.2,Co:0.2,Ni:0.2,Cr:0.2,Mn:0.2"
@@ -66,10 +67,9 @@ Default: data/element_data.csv relative to the project root.
 Default: Print to console only.
 -h, --help: Show the help message and exit.
 -v, --version: Show the program's version number and exit.
+```
 Example:
-
 ```bash
-
 # Predict properties for the Cantor alloy (equiatomic FeCoNiCrMn)
 python src/hea_predictor/cli.py "Fe:0.2,Co:0.2,Ni:0.2,Cr:0.2,Mn:0.2"
 
@@ -92,15 +92,13 @@ Notes:
 Ensure data consistency (e.g., lattice parameter corresponds to the stated crystal structure).
 Use # at the beginning of a line for comments in the CSV file.
 Missing numeric values or non-positive values (for density, lattice parameter) will cause warnings or calculation failures for that property.
-Contributing
+## Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues for bugs, feature requests, or data updates.
-
 Fork the repository.
 Create a new branch (git checkout -b feature/your-feature-name).   
 Make your changes.
 Commit your changes (git commit -am 'Add some feature').
 Push to the branch (git push origin feature/your-feature-name).
 Create a new Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.   
-
+## License
+This project is licensed under the MIT License - see the **LICENSE** file for details.   
