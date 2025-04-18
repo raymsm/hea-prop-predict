@@ -31,7 +31,7 @@ This tool is designed for **initial screening and hypothesis generation ONLY**. 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/raymsm/hea-prop-predict.git)
+    git clone [https://github.com/](https://github.com/)raymsm/hea-prop-predict.git
     cd hea-prop-predict
     ```
 2.  **Create a virtual environment (recommended):**
