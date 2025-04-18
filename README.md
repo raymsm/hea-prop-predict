@@ -94,11 +94,11 @@ Use # at the beginning of a line for comments in the CSV file.
 Missing numeric values or non-positive values (for density, lattice parameter) will cause warnings or calculation failures for that property.
 ## Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues for bugs, feature requests, or data updates.
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature-name).   
-Make your changes.
-Commit your changes (git commit -am 'Add some feature').
-Push to the branch (git push origin feature/your-feature-name).
-Create a new Pull Request.
+1.   Fork the repository.
+2.   Create a new branch (git checkout -b feature/your-feature-name).   
+3.   Make your changes.
+4.   Commit your changes (git commit -am 'Add some feature').
+5.   Push to the branch (git push origin feature/your-feature-name).
+6.   Create a new Pull Request.
 ## License
 This project is licensed under the MIT License - see the **LICENSE** file for details.   
