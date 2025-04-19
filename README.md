@@ -1,5 +1,5 @@
 # HEA Property Predictor
-
+## :warning: Bug present. To be Fixed Soon.
 
 A command-line tool to provide rapid, *approximate* estimates for basic properties (density, lattice parameter, thermal conductivity) of High Entropy Alloys (HEAs) based on their elemental composition. It utilizes simple Rule-of-Mixtures (RoM) and Vegard's Law models.
 
