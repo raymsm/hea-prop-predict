@@ -1,10 +1,27 @@
 import argparse
-import sys
 import os
-import pandas as pd
-from . import data_loader
-from . import calculator
-from . import __version__
+import sys
+
+
+def _load_package_modules():
+    """Load package modules for both module and direct-script execution."""
+    if __package__ not in (None, ""):
+        from . import calculator as _calculator
+        from . import data_loader as _data_loader
+        from . import __version__ as _version
+        return _calculator, _data_loader, _version
+
+    package_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    if package_root not in sys.path:
+        sys.path.insert(0, package_root)
+
+    from hea_predictor import calculator as _calculator
+    from hea_predictor import data_loader as _data_loader
+    from hea_predictor import __version__ as _version
+    return _calculator, _data_loader, _version
+
+
+calculator, data_loader, __version__ = _load_package_modules()
 
 # Determine default data file path relative to this script file
 DEFAULT_DATA_FILE = os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'element_data.csv')
